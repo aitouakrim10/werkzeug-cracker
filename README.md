@@ -39,20 +39,6 @@ This project is a Python script designed to calculate the PIN required to access
 
 ---
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SidneyJob/werkzeug-pin-gen.git
-   cd werkzeug-pin-gen
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
 
 ## Usage
 
@@ -73,7 +59,7 @@ python3 gen.py --username <USERNAME> --path <FLASK_PATH> --mac <MAC_ADDRESS> --c
 ### Example
 
 ```bash
-python3 gen.py --username web-app --path '/home/web-app/.local/lib/python3.11/site-packages/flask/app.py' --mac '02:42:ac:11:00:1c' --cgroup '12:cpuset:/' --machine_id '43e1bc61-2abe-4e9b-8095-28e6508bfb39' --modname flask.app --appname Flask
+python3 werkzeuger.py  --username web-app --path '/home/web-app/.local/lib/python3.11/site-packages/flask/app.py' --mac '02:42:ac:11:00:1c' --cgroup '12:cpuset:/' --machine_id '43e1bc61-2abe-4e9b-8095-28e6508bfb39' --modname flask.app --appname Flask
 ```
 
 ### Output Example
@@ -106,15 +92,5 @@ python3 gen.py --username web-app --path '/home/web-app/.local/lib/python3.11/si
 
 - **Disclaimer**: Use this tool for ethical and educational purposes only. Unauthorized access to systems is illegal.
 - **Compatibility**: Tested with Flask installations using Werkzeug debugger.
-
----
-
-## Logo
-
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ---
