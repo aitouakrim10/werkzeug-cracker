@@ -45,7 +45,7 @@ This project is a Python script designed to calculate the PIN required to access
 ### Command-Line Arguments
 
 ```bash
-python3 gen.py --username <USERNAME> --path <FLASK_PATH> --mac <MAC_ADDRESS> --cgroup <CGROUP> --machine_id <MACHINE_ID> [--modname <MODULE_NAME>] [--appname <APP_NAME>]
+python3 werkzeuger.py --username <USERNAME> --path <FLASK_PATH> --mac <MAC_ADDRESS> --cgroup <CGROUP> --machine_id <MACHINE_ID> [--modname <MODULE_NAME>] [--appname <APP_NAME>]
 ```
 
 - `--username` *(Required)*: Username of the user running the Flask app (e.g., `web-app`).
